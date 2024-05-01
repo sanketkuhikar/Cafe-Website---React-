@@ -1,0 +1,63 @@
+.forget-section {
+  display: flex;
+  width: 100%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.forget-leftside {
+  margin: 90px -10px;
+}
+
+.forget-leftside img {
+  height: 350px;
+  width: 100%;
+  margin-left: 80px;
+}
+
+.forget-rightside {
+  margin: 90px auto;
+  text-align: center;
+}
+
+.container-forget {
+  border: 1px solid black;
+  margin: 40px;
+  padding: 30px;
+}
+
+.container-forget h3 {
+  color: #d16e43;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.container-forget input {
+  width: 50%;
+  height: 40px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #d9d9d9;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.forget-btn {
+  width: 50%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #f0ad90;
+  color: white;
+  margin-bottom: 45px;
+}
+
+.account .for-btn {
+  background-color: transparent;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}

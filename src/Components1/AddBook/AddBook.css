@@ -1,0 +1,37 @@
+.Add1-information {
+  margin-top: -170px;
+}
+
+.Add1-information p {
+  color: white;
+  margin-left: 12px;
+  line-height: 50px;
+}
+
+.Add1-information input {
+  width: 410px;
+  height: 45px;
+  font-size: 20px;
+  border: none;
+  margin-left: 10px;
+  background: #00000080;
+}
+
+.Add1-information-1 {
+  margin-top: 20px;
+}
+
+.Add1-information-1 p {
+  color: white;
+  margin-left: 15px;
+  line-height: 50px;
+}
+
+.Add1-information-1 input {
+  width: 410px;
+  height: 45px;
+  font-size: 20px;
+  border: none;
+  margin-left: 10px;
+  background: #00000080;
+}

@@ -1,0 +1,48 @@
+.info1-information {
+  margin-top: 30px;
+}
+
+.info1-information p {
+  color: white;
+  margin-left: 12px;
+  line-height: 50px;
+}
+
+.info1-information input {
+  width: 410px;
+  height: 45px;
+  font-size: 20px;
+  border: none;
+  margin-left: 10px;
+  background: #00000080;
+}
+
+.info1-checkbox input {
+  margin-left: 15px;
+}
+
+.info1-checkbox label {
+  font-size: 20px;
+}
+
+.btn-save {
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  cursor: pointer;
+}
+
+.btn-back {
+  padding: 10px 20px;
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: rgba(217, 217, 217, 0.5);
+  cursor: pointer;
+}

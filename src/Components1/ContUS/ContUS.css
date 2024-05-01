@@ -1,0 +1,126 @@
+.Cont1 {
+  width: 100%;
+  justify-content: center;
+}
+
+.Cont1-heading {
+  max-width: 80%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.Cont1-heading h1 {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  font-size: 45px;
+  margin-left: 250px;
+  padding-top: 60px;
+}
+
+.Cont2 {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.Cont2-Image {
+  display: flex;
+  margin-top: 50px;
+  /*justify-content: space-evenly;
+    color: #130903E0;*/
+}
+
+.Image-Blocks {
+  width: 100%;
+  color: #ffffffcc;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  margin-left: 70px;
+}
+
+.Image-Blocks img {
+  width: 190px;
+  height: 180px;
+  border-radius: 80px;
+  object-fit: cover;
+  opacity: 60%;
+}
+
+.Image-Blocks h1 {
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 20px;
+}
+
+.Image-Blocks p {
+  justify-content: center;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  line-height: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.Cont3 {
+  background-color: black;
+  width: 100%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.Cont3-cont {
+  max-width: 100%;
+}
+
+.Cont3-cont h1 {
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.Cont3-name {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-form input {
+  height: 37px;
+  width: 300px;
+  background-color: rgba(217, 217, 217, 0.3);
+  border-style: none;
+}
+
+.Cont3-name-1 {
+  margin-top: 30px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.TextBox textarea {
+  width: 73.5%;
+  margin-top: 50px;
+  margin-left: 175px;
+  background-color: rgba(217, 217, 217, 0.3);
+  border-style: none;
+}
+
+.button {
+  padding: 40px;
+  text-align: center;
+  justify-content: center;
+}
+
+.button-sub {
+  width: 140px;
+  height: 35px;
+  font-size: 20px;
+  font-weight: bold;
+  background: rgba(217, 217, 217, 0.6);
+  color: black;
+  border-style: none;
+  border-radius: 20px;
+  cursor: pointer;
+}

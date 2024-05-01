@@ -1,0 +1,206 @@
+.offers3 {
+  background-color: #251a17;
+  width: 100%;
+  /*height: 100vh;*/
+  position: relative;
+}
+
+.text-with-lines {
+  color: white;
+  position: relative;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 60px 20px; /* Adjust padding as needed */
+  font-family: sans-serif;
+}
+
+.text-with-lines::before,
+.text-with-lines::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 37%;
+  height: 2px;
+  background-color: #d16e43;
+}
+
+.text-with-lines::before {
+  left: 0;
+}
+
+.text-with-lines::after {
+  right: 0;
+}
+
+#gift {
+  margin-left: 15px;
+}
+/************ slider Best Offer ****************/
+
+.offers3-imgSlider {
+  width: 90%;
+  margin: auto;
+}
+
+.swiper {
+  width: 100%;
+  /*height: 100%;*/
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.first-offer {
+  background-image: url("../../assets/Sunset/MENU/Combo.png");
+  height: 450px;
+  background-position: center;
+  background-size: 100%;
+  width: 100%;
+}
+
+.first-offer h3 {
+  font-family: "Joti One", sans-serif;
+  font-size: 16px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.first-offer h2 {
+  font-family: "Joti One", sans-serif;
+  font-size: 25px;
+  line-height: 28px;
+  text-align: center;
+  color: #ecf01b;
+}
+
+.offer-get {
+  color: white;
+  display: flex;
+  background: black;
+  width: 100px;
+  height: 100px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  position: relative;
+  top: 20px;
+  left: 35px;
+}
+
+.offer-get h1 {
+  font-family: "Joti One", sans-serif;
+  padding-left: 10px;
+  transform: rotate(15deg);
+  font-size: 40px;
+}
+
+.btn-offer-first {
+  background: black;
+  color: white;
+  width: 150px;
+  height: 45px;
+  border: 10px solid white;
+  position: relative;
+  top: -65px;
+  left: 160px;
+  font-size: 18px;
+  font-family: "Joti One", sans-serif;
+}
+
+.second-slide-offer {
+  background-color: #af2222;
+  height: 450px;
+  width: 100%;
+}
+
+.second-silde-heading {
+  color: #ecf01b;
+  text-align: left;
+  font-family: "Joti One", sans-serif;
+}
+
+.second-silde-heading ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-family: "Joti One", sans-serif;
+}
+
+.second-silde-heading h1 {
+  font-family: "Joti One", sans-serif;
+  padding: 10px 0px;
+}
+
+.second-silde-heading ul li {
+  font-size: 15px;
+  margin: 5px 15px;
+  font-family: "Joti One", sans-serif;
+}
+
+.upTo {
+  color: yellow;
+  background: red;
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  border-radius: 50px;
+  position: relative;
+  top: 170px;
+  left: 330px;
+  display: flex;
+  z-index: 2;
+}
+
+.upTo h3 {
+  font-family: "Joti One", sans-serif;
+  font-size: 14px;
+}
+
+.second-slide-image {
+  display: flex;
+  justify-content: flex-end;
+  height: 321px;
+  width: 469px;
+  position: absolute;
+  top: 130px;
+}
+
+.second-slide-image img {
+  width: 90%;
+}
+
+.btn-second-offer {
+  position: absolute;
+  width: 110px;
+  height: 30px;
+  background: #fe0505;
+  color: #ecf01b;
+  top: 5px;
+  right: 5px;
+  border-radius: 15px;
+  font-family: "Joti One", sans-serif;
+  border: none;
+}
+
+.image-Slide {
+  width: 100%;
+  height: 450px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  top: 50%;
+  background: black;
+  border-radius: 50px;
+}

@@ -1,0 +1,243 @@
+.Menu01 {
+  background: #252323;
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+.Menu01-image img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.foodItem {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  align-content: center;
+  color: white;
+  line-height: 50px;
+  gap: 90px;
+  font-size: 20px;
+}
+
+.foodItem li {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.Menu01-FoodBlock {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.Menu01-Block {
+  border-right: 1px solid #f6fa11;
+  width: 50%;
+}
+
+.Menu01-FoodItem {
+  display: flex;
+  position: relative;
+  gap: 20px;
+  color: white;
+  width: 250px;
+  height: 50px;
+  background: #d16e43;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  justify-content: center;
+  margin-left: 200px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.Menu01-FoodItem h3 {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.outer-circle-G {
+  width: 34px;
+  height: 30px;
+  border-radius: 40%;
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #2fd820;
+  cursor: pointer;
+}
+
+.inner-circle-G {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  color: #2fd820;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.outer-circle-R {
+  width: 34px;
+  height: 30px;
+  border-radius: 40%;
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d71919;
+  cursor: pointer;
+}
+
+.inner-circle-R {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  color: #d71919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.Menu01-FoodList {
+  display: flex;
+  position: relative;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+
+.Menu01-FoodItemList {
+  margin: 5px 20px;
+}
+
+.Menu01-FoodItemList h3 {
+  width: 250px;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.Menu01-FoodItemList p {
+  color: #f6fa11;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+.white-Circle {
+  width: 30px;
+  height: 30px;
+  background-color: #d9d9d9;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  padding: 9px;
+  font-size: 11px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.btn-add {
+  width: 108px;
+  height: 45px;
+  background-color: #cb5f5f;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 14px 23px;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-top: -7px;
+  cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#fa-plus {
+  margin: 1px;
+}
+
+.down-btn {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.down {
+  color: white;
+}
+
+.circle {
+  display: flex;
+  gap: 5px;
+}
+
+/****** See More 2 pages ******/
+
+.Menu01-FoodItem1 {
+  display: flex;
+  position: relative;
+  gap: 20px;
+  color: white;
+  width: 290px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  justify-content: center;
+  margin-left: 170px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/****** See More 3 pages ******/
+
+.foodItem1 {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  align-content: center;
+  color: white;
+  line-height: 50px;
+  gap: 65px;
+  font-size: 20px;
+}
+
+.foodItem1 li {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/****** See More 8 pages ******/
+
+.comboItem li {
+  color: white;
+  margin-left: 10px;
+  line-height: 22px;
+  width: 250px;
+  font-family: sans-serif;
+}
+
+.comboItemList li {
+  margin-left: 40px;
+  font-family: sans-serif;
+}
+
+.down-para {
+  color: #cb5f5f;
+  text-align: center;
+  padding: 50px;
+  font-size: 23px;
+  font-weight: bold;
+}

@@ -1,0 +1,99 @@
+.items1 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #252323;
+}
+
+.items1-image img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.text-with-lines {
+  color: white;
+  position: relative;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 20px 20px; /* Adjust padding as needed */
+}
+
+.text-with-lines::before,
+.text-with-lines::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 33%;
+  height: 2px;
+  background-color: white;
+}
+
+.text-with-lines::before {
+  left: 0;
+}
+
+.text-with-lines::after {
+  right: 0;
+}
+
+.items1-ImgBlock {
+  width: 100%;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.items1-ImgBlock .Images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+}
+
+.items1-ImgBlock .Images img {
+  object-fit: cover;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+}
+
+.FoodName {
+  color: white;
+  /*width: 200px;*/
+  font-size: 20px;
+}
+
+.FoodName a {
+  text-decoration: none;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.items1-link-SeeMore {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+  cursor: pointer;
+  padding: 30px;
+}
+
+.btn-seeMore {
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#circle-arrow {
+  color: #7d7474;
+  font-size: 35px;
+  margin-top: 20px;
+}

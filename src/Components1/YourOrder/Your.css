@@ -1,0 +1,72 @@
+.Order1-RightSide-Block {
+  max-width: 100%;
+  width: 55%;
+  float: right;
+}
+
+.RightSide-Blocks {
+  color: white;
+  position: relative;
+  line-height: 90px;
+  bottom: 100px;
+  font-size: 22px;
+}
+
+.RightSide-cont {
+  width: 85%;
+  height: 90px;
+  background: #0000004d;
+  margin-top: -80px;
+  margin-left: 20px;
+}
+
+.RightSide-Img {
+  display: flex;
+  color: white;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.RightSide-Img img {
+  width: 80px;
+  height: 80px;
+}
+
+.RightSide-Img p {
+  font-size: 28px;
+  margin-left: 20px;
+}
+
+.RightSide-Blocks-1 {
+  color: white;
+  position: relative;
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+.Order1-history {
+  margin-top: 30px;
+}
+
+.order-history {
+  width: 75%;
+  height: 80px;
+  background: #0000004d;
+  display: flex;
+  margin: 15px 35px;
+}
+
+.order-Img img {
+  width: 100px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.order-Items {
+  color: white;
+  width: 100%;
+  margin: 5px 40px;
+  line-height: 24px;
+}
